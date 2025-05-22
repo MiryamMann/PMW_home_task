@@ -1,0 +1,24 @@
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.65); /* bg-black bg-opacity-65 */
+}
+
+.content {
+  padding: 2rem; /* p-8 */
+  max-width: 42rem; /* max-w-2xl */
+}
+
+.heading {
+  margin-bottom: 1rem; /* mb-4 */
+  font-weight: 600;
+  color: white;
+  font-size: 1.875rem; /* text-3xl */
+}
+
+.paragraph {
+  color: white;
+  font-size: 1.125rem; /* text-lg */
+}

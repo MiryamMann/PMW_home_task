@@ -1,0 +1,27 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* space-y-4 */
+}
+
+.heading {
+  font-weight: 600; /* font-semibold */
+  color: #3F3D99;
+  font-size: 1.5rem; /* text-2xl */
+}
+
+.tabs {
+  width: 100%;
+}
+
+.tabsList {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.tabsContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* space-y-4 */
+}
