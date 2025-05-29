@@ -1,0 +1,11 @@
+.container {
+    @apply flex flex-col gap-2;
+}
+
+.textarea {
+    @apply border border-gray-300 rounded p-2 min-h-[80px] resize-y;
+}
+
+.button {
+    @apply bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 disabled:opacity-50;
+}

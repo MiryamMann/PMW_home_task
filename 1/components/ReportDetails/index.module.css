@@ -1,0 +1,23 @@
+.container {
+    @apply space-y-4 p-6;
+}
+
+.title {
+    @apply text-2xl font-bold;
+}
+
+.date {
+    @apply text-sm text-gray-500;
+}
+
+.content {
+    @apply text-base leading-relaxed;
+}
+
+.loading {
+    @apply italic text-gray-500;
+}
+
+.error {
+    @apply text-red-600 font-semibold;
+}

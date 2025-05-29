@@ -1,0 +1,15 @@
+.loading {
+    @apply text-gray-500 italic;
+}
+
+.empty {
+    @apply text-red-500 italic;
+}
+
+.footnoteList {
+    @apply list-disc pl-5 space-y-2;
+}
+
+.footnoteItem {
+    @apply text-sm text-gray-800;
+}
